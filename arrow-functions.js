@@ -2,6 +2,15 @@
  * To run this file in Gitpod, use the 
  * command node arrow-functions.js in the terminal
  */
+// Curly braces required or not 
+/* in a single line expresion no curly braces.
+returning multiline use parentheses and no curly braces but you can 
+add curly braces in those parentheses like when returning 
+an object literal for example
+const makePoint = (x, y) => ({ x: x, y: y });
+also in case of using an arrow func as a placeholder like that
+ const doNothing = () => {};  */
+
 
 // Vanilla JavaScript Function
 function addTwoNumbers(a, b) {
